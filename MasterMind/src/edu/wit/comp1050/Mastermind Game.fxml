@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<VBox prefHeight="650.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.wit.comp1050.Controller">
+
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefWidth="640.0" VBox.vgrow="ALWAYS">
+      <children>
+        <Label alignment="CENTER" layoutX="155.0" layoutY="177.0" style="&#10;" text="Drag components from Library here…" textAlignment="CENTER" textFill="#9f9f9f" wrapText="false">
+          <font>
+            <Font size="18.0" />
+          </font>
+        </Label>
+            <Text layoutX="189.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mastermind Game">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Text>
+            <Accordion layoutX="210.0" layoutY="268.0" />
+            <Pane layoutX="326.0" layoutY="246.0" prefHeight="200.0" prefWidth="200.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="550.0" layoutX="144.0" layoutY="75.0" stroke="BLACK" strokeType="INSIDE" width="350.0" />
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>
